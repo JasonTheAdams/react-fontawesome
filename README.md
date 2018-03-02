@@ -313,12 +313,12 @@ Size:
 <FontAwesomeIcon icon="spinner" size="6x" />
 ```
 
-Rotate:
+Rotation:
 
 ```javascript
-<FontAwesomeIcon icon="spinner" rotate={90} />
-<FontAwesomeIcon icon="spinner" rotate={180} />
-<FontAwesomeIcon icon="spinner" rotate={270} />
+<FontAwesomeIcon icon="spinner" rotation={90} />
+<FontAwesomeIcon icon="spinner" rotation={180} />
+<FontAwesomeIcon icon="spinner" rotation={270} />
 ```
 
 Pull left or right:
@@ -340,7 +340,8 @@ Power Transforms:
 
 ```javascript
 <FontAwesomeIcon icon="spinner" transform="shrink-6 left-4" />
-<FontAwesomeIcon icon="spinner" transform={{ rotate: 42 }} />
+<FontAwesomeIcon icon="spinner" transform={{ 
+: 42 }} />
 ```
 
 Composition:
